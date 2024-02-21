@@ -27,4 +27,8 @@ class AdminController extends Controller
  
         return redirect('/admin/login')->with($notification);
     } // End Method 
+
+    public function AdminLogin(){
+        return view('admin.admin_login');
+    } // End Method 
 }

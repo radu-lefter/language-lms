@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\InstructorController;
+use App\Http\Middleware\RedirectIfAuthenticated;
 
 /*
 |--------------------------------------------------------------------------
@@ -37,6 +38,8 @@ Route::middleware(['auth','roles:admin'])->group(function(){
 Route::get('/admin/dashboard', [AdminController::class, 'AdminDashboard'])->name('admin.dashboard');
 Route::get('/admin/logout', [AdminController::class, 'AdminLogout'])->name('admin.logout');
 }); //End Admin Group Middleware
+
+Route::get('/admin/login', [AdminController::class, 'AdminLogin'])->name('admin.login')->middleware(RedirectIfAuthenticated::class);
 
 ///// Instructor Group Middleware
 Route::middleware(['auth','roles:instructor'])->group(function(){
