@@ -49,4 +49,7 @@ Route::get('/admin/login', [AdminController::class, 'AdminLogin'])->name('admin.
 ///// Instructor Group Middleware
 Route::middleware(['auth','roles:instructor'])->group(function(){
 Route::get('/instructor/dashboard', [InstructorController::class, 'InstructorDashboard'])->name('instructor.dashboard');
+Route::get('/instructor/logout', [InstructorController::class, 'InstructorLogout'])->name('instructor.logout');
 }); //End Instructor Group Middleware
+
+Route::get('/instructor/login', [InstructorController::class, 'InstructorLogin'])->name('instructor.login')->middleware(RedirectIfAuthenticated::class);
