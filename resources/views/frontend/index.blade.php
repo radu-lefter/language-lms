@@ -8,7 +8,7 @@ Easy Learning
 <!--================================
          START HERO AREA
 =================================-->
- {{-- @include('frontend.home.hero-area') --}}
+ @include('frontend.home.hero-area')
 <!--================================
         END HERO AREA
 =================================-->
@@ -16,7 +16,7 @@ Easy Learning
 <!--======================================
         START FEATURE AREA
  ======================================-->
- {{-- @include('frontend.home.feature-area') --}}
+ @include('frontend.home.feature-area')
 <!--======================================
        END FEATURE AREA
 ======================================-->
@@ -40,7 +40,7 @@ Easy Learning
 <!--======================================
         START COURSE AREA
 ======================================-->
-{{-- @include('frontend.home.courses-area-two') --}}
+@include('frontend.home.courses-area-two')
 <!--======================================
         END COURSE AREA
 ======================================-->
@@ -48,7 +48,7 @@ Easy Learning
 <!-- ================================
        START FUNFACT AREA
 ================================= -->
-{{-- @include('frontend.home.funfact-area') --}}
+@include('frontend.home.funfact-area')
 <!-- ================================
        START FUNFACT AREA
 ================================= -->
@@ -56,7 +56,7 @@ Easy Learning
 <!--======================================
         START CTA AREA
 ======================================-->
-{{-- @include('frontend.home.cta-area') --}}
+@include('frontend.home.cta-area')
 <!--======================================
         END CTA AREA
 ======================================-->
@@ -64,7 +64,7 @@ Easy Learning
 <!--================================
          START TESTIMONIAL AREA
 =================================-->
-{{-- @include('frontend.home.testimonial-area') --}}
+@include('frontend.home.testimonial-area')
 <!--================================
         END TESTIMONIAL AREA
 =================================-->
@@ -74,7 +74,7 @@ Easy Learning
 <!--======================================
         START ABOUT AREA
 ======================================-->
-{{-- @include('frontend.home.about-area') --}}
+@include('frontend.home.about-area')
 <!--======================================
         END ABOUT AREA
 ======================================-->
@@ -84,7 +84,7 @@ Easy Learning
 <!--======================================
         START REGISTER AREA
 ======================================-->
-{{-- @include('frontend.home.register-area') --}}
+@include('frontend.home.register-area')
 <!--======================================
         END REGISTER AREA
 ======================================-->
@@ -94,7 +94,7 @@ Easy Learning
 <!-- ================================
        START CLIENT-LOGO AREA
 ================================= -->
-{{-- @include('frontend.home.client-logo-area') --}}
+@include('frontend.home.client-logo-area')
 <!-- ================================
        START CLIENT-LOGO AREA
 ================================= -->
@@ -110,7 +110,7 @@ Easy Learning
 <!--======================================
         START GET STARTED AREA
 ======================================-->
-{{-- @include('frontend.home.started-area') --}}
+@include('frontend.home.started-area')
 <!-- ================================
        START GET STARTED AREA
 ================================= -->
@@ -118,7 +118,7 @@ Easy Learning
 <!--======================================
         START SUBSCRIBER AREA
 ======================================-->
-{{-- @include('frontend.home.subscriber-area') --}}
+@include('frontend.home.subscriber-area')
 <!--======================================
         END SUBSCRIBER AREA
 ======================================-->
