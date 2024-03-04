@@ -47,7 +47,7 @@ Route::post('/admin/password/update', [AdminController::class, 'AdminPasswordUpd
 
 // Category All Route 
 Route::controller(CategoryController::class)->group(function(){
-    Route::get('/all/category','AllCategory')->name('all.category')->middleware('permission:category.all');;
+    Route::get('/all/category','AllCategory')->name('all.category'); //->middleware('permission:category.all');;
     //Route::get('/add/category','AddCategory')->name('add.category');
     //Route::post('/store/category','StoreCategory')->name('store.category');
     //Route::get('/edit/category/{id}','EditCategory')->name('edit.category');
